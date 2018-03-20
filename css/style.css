@@ -4,7 +4,7 @@ body {
   text-align: center;
 }
 
-.header {
+h1{
   text-align: center;
   padding: 30px;
   font-size: 1rem;
@@ -22,27 +22,31 @@ body {
 }
 
 .preview > h1 {
+  padding: 0;
   font-size: 1.5rem;
   float: left;
+  font-family: serif;
+  letter-spacing: 1px;
+  text-transform: none;
 }
 
 .baku {
-  background: url(/images/baku.jpg);
+  background: url(../images/baku.jpg);
   background-size: cover;
 }
 
 .london {
-  background: url(/images/london.png);
+  background: url(../images/london.png);
   background-size: cover;
 }
 
 .madrid {
-  background: url(/images/madrid.jpg);
+  background: url(../images/madrid.jpg);
   background-size: cover;
 }
 
 .rome {
-  background: url(/images/rome.jpg);
+  background: url(../images/rome.jpg);
   background-size: cover;
 }
 
